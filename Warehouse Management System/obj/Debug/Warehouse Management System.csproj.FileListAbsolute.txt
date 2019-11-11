@@ -8,3 +8,4 @@ C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\W
 C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\obj\Debug\Warehouse Management System.exe
 C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\obj\Debug\Warehouse Management System.pdb
 C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\obj\Debug\Warehouse_Management_System.Form2.resources
+C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\obj\Debug\Warehouse_Management_System.Form3.resources

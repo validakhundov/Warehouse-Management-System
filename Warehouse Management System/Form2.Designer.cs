@@ -61,6 +61,8 @@
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -122,6 +124,9 @@
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "TOOL",
+            "MATERIAL"});
             this.comboBox1.Location = new System.Drawing.Point(10, 312);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(328, 28);
@@ -184,21 +189,27 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Blue;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(11, 501);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(59, 23);
             this.button1.TabIndex = 17;
             this.button1.Text = "Add new";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(76, 501);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(50, 23);
             this.button2.TabIndex = 18;
             this.button2.Text = "Delete";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // groupBox1
             // 
@@ -214,41 +225,52 @@
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.Green;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(289, 501);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 23);
             this.button3.TabIndex = 21;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Text = "Save";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.Red;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(224, 501);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(59, 23);
             this.button4.TabIndex = 20;
-            this.button4.Text = "Add new";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Text = "Cancel";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button5.BackColor = System.Drawing.Color.Yellow;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button5.Location = new System.Drawing.Point(6, 19);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(109, 38);
             this.button5.TabIndex = 22;
-            this.button5.Text = "Add new";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Text = "LOCK";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button6.Location = new System.Drawing.Point(6, 63);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(109, 23);
             this.button6.TabIndex = 23;
-            this.button6.Text = "Add new";
+            this.button6.Text = "Change password";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label6
             // 
@@ -401,11 +423,34 @@
             this.label8.Text = "Order type:";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label9.Location = new System.Drawing.Point(591, 504);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(371, 16);
+            this.label9.TabIndex = 28;
+            this.label9.Text = "Copyright © 2019 Valid Akhundov (Developed for MLP SDF 2)";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(343, 506);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(238, 13);
+            this.label10.TabIndex = 29;
+            this.label10.Text = "0 items (total 0 pcs) | Total value: 0 AZN";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(974, 535);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.button3);
@@ -430,7 +475,7 @@
             this.MaximizeBox = false;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Valid\'s Lab Warehouse Management System";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -477,5 +522,7 @@
         private System.Windows.Forms.RadioButton radioButton7;
         private System.Windows.Forms.RadioButton radioButton8;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }
