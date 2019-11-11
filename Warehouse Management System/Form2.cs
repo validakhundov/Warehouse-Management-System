@@ -44,5 +44,45 @@ namespace Warehouse_Management_System
             Form3 f3 = new Form3();
             f3.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Enabled = false;
+            button3.Enabled = true;
+            button4.Enabled = true;
+
+            textBox1.Enabled = true;
+            textBox2.Enabled = true;
+            textBox3.Enabled = true;
+            textBox4.Enabled = true;
+            comboBox1.Enabled = true;
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button1.Enabled = true;
+            button3.Enabled = false;
+            button4.Enabled = false;
+
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+            textBox3.Enabled = false;
+            textBox4.Enabled = false;
+            comboBox1.Enabled = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button1.Enabled = true;
+            button3.Enabled = false;
+            button4.Enabled = false;
+
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+            textBox3.Enabled = false;
+            textBox4.Enabled = false;
+            comboBox1.Enabled = false;
+        }
     }
 }
