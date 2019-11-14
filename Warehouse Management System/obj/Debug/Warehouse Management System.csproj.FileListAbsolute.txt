@@ -9,3 +9,13 @@ C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\W
 C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\obj\Debug\Warehouse Management System.pdb
 C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\obj\Debug\Warehouse_Management_System.Form2.resources
 C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\obj\Debug\Warehouse_Management_System.Form3.resources
+C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\bin\Debug\Npgsql.dll
+C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\bin\Debug\Mono.Security.dll
+C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\bin\Debug\Npgsql.pdb
+C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\bin\Debug\Npgsql.xml
+C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\bin\Debug\de\Npgsql.resources.dll
+C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\bin\Debug\es\Npgsql.resources.dll
+C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\valid\Desktop\Warehouse Management System\Warehouse Management System\Warehouse Management System\bin\Debug\zh-CN\Npgsql.resources.dll
